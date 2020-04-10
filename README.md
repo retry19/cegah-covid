@@ -2,6 +2,10 @@
 
 **CEGAHCOCID** adalah website untuk memantau jumlah kasus covid di indonesia, dan juga melihat berbagai berita terkini mengenai kesehatan
 
+## SCREENSHOT
+
+![Screenshot CEGAHCOVID Website](https://cdn.dribbble.com/users/3804129/screenshots/11006453/media/369a0988c37553a104a8d0c02b1d1e14.png)
+
 ## API
 
 Website **CEGAHCOVID** menggunakan beberapa `API` yaitu :
