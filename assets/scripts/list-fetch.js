@@ -38,7 +38,7 @@ const getDateUpdate = () => {
 // untuk mengambil data berita di indonesia dengan kategory kesehatan dari api newsapi.org
 const getDataArticle = () => {
     let artikelWrapper = document.getElementById('artikel__wrapper');
-    fetch('http://newsapi.org/v2/top-headlines?country=id&category=health&apiKey=0b51ec61d73540db8183c658207f3891')
+    fetch('https://newsapi.org/v2/top-headlines?country=id&category=health&apiKey=0b51ec61d73540db8183c658207f3891')
         .then(res => {
             if (res.ok)
                 return res.json();
