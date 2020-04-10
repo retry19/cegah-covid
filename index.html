@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="CEGAHCOVID adalah website untuk memantau jumlah kasus covid di indonesia, dan juga melihat berbagai berita terkini mengenai kesehatan">
+    <meta name="dicoding:email" content="rezarahmanudin@gmail.com">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <title>Home :: CEGAHCOVID</title>
+</head>
+
+<body id="home">
+    <!-- awal header -->
+    <header>
+        <nav>
+            <div class="nav__brand">
+                <h4>cegah<span>covid<span></span></h4>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#artikel">Artikel</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- akhir header -->
+    <!-- awal main -->
+    <main>
+        <div id="content">
+            <!-- awal data kasus -->
+            <h3>Data kasus di Indonesia</h3>
+            <div class="info__wrapper">
+                <div class="info__section" id="info__section-positif">
+                    <label>Positif</label>
+                </div>
+                <div class="info__section" id="info__section-sembuh">
+                    <label>Sembuh</label>
+                </div>
+                <div class="info__section" id="info__section-meninggal">
+                    <label>Meninggal</label>
+                </div>
+                <div class="info__section" id="info__section-dirawat">
+                    <label>Dirawat</label>
+                </div>
+            </div>
+            <small id="info__date"></small>
+            <!-- akhir data kasus -->
+            <div class="break_bottom-100"></div>
+            <!-- awal artikel -->
+            <h3 id="artikel">Seputar pekan ini</h3>
+            <div class="artikel__wrapper" id="artikel__wrapper">
+            </div>
+            <!-- akhir artikel -->
+        </div>
+        <!-- awal aside -->
+        <aside>
+            <!-- awal call center -->
+            <h3>Daftar Call Center</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th width="10%">No</th>
+                        <th>Provinsi</th>
+                        <th>Telepon</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Aceh</td>
+                        <td>(0645) 46334</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Sumatera Selatan</td>
+                        <td>(0711) 354088</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Bengkulu</td>
+                        <td>(0736) 52004</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Sumatera Barat</td>
+                        <td>(0751) 32371</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>DKI Jakarta</td>
+                        <td>(021) 6506559</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Banten</td>
+                        <td>(021) 5523507</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Jawa Barat</td>
+                        <td>(022) 203495355</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Jawa Tengah</td>
+                        <td>(0271) 634634</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>DI Yogyakarta</td>
+                        <td>(0274) 631190</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Jawa Timur</td>
+                        <td>(0331) 487441</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Kalimantan Barat</td>
+                        <td>(0561) 737701</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Kalimantan Timur</td>
+                        <td>(0543) 24563</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Sulawesi Barat</td>
+                        <td>(0426) 2703260</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Sulawesi Tengah</td>
+                        <td>(0451) 4908020</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- akhir call center -->
+        </aside>
+        <!-- akhir aside -->
+    </main>
+    <!-- akhir main -->
+    <!-- awal footer -->
+    <footer>
+        <p>Built with &hearts; by <a href="//instagram.com/re_try19" target="_blank">retry</a></p>
+        <p>&copy; 2020</p>
+    </footer>
+    <!-- akhir footer -->
+
+    <script src="assets/scripts/list-fetch.js"></script>
+</body>
+
+</html>
