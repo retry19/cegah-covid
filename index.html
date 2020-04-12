@@ -7,6 +7,7 @@
     <meta name="description"
         content="CEGAHCOVID adalah website untuk memantau jumlah kasus covid di indonesia, dan juga melihat berbagai berita terkini mengenai kesehatan">
     <meta name="dicoding:email" content="rezarahmanudin@gmail.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.css">
     <link rel="stylesheet" href="assets/styles/main.css">
     <title>Home :: CEGAHCOVID</title>
 </head>
@@ -25,6 +26,14 @@
         </nav>
     </header>
     <!-- akhir header -->
+    <!-- awal chart -->
+    <div class="chart">
+        <h3>Statistik Kasus di Indonesia</h3>
+        <div class="chart__card">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <!-- akhir chart -->
     <!-- awal main -->
     <main>
         <div id="content">
@@ -150,7 +159,9 @@
     </footer>
     <!-- akhir footer -->
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
     <script src="assets/scripts/list-fetch.js"></script>
+    <script src="assets/scripts/covid-chart.js"></script>
 </body>
 
 </html>

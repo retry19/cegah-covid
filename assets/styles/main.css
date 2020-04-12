@@ -27,6 +27,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 
 nav {
@@ -68,16 +69,38 @@ nav {
     background-color: #8B2B80;
 }
 
+/* chart */
+.chart {
+    padding: 0 140px;
+    padding-top: 143px;
+    width: 100vw;
+    overflow: auto;
+}
+
+.chart h3 {
+    font-size: 1.7em;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.chart__card {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-color: #382039;
+    padding: 22px 34px;
+    border-radius: 6px;
+}
+
 /* main */
 main {
     padding: 0 140px;
-    padding-top: 78px;
     width: 100vw;
     overflow: auto;
 }
 
 #content {
-    margin: 65px 0;
+    margin: 85px 0;
     width: 60%;
     float: left;
 }
@@ -166,7 +189,7 @@ main {
 }
 
 aside {
-    margin: 65px 0;
+    margin: 85px 0;
     float: right;
     width: fit-content;
 }
@@ -281,10 +304,15 @@ footer a {
         font-size: .7em;
     }
 
+    /* chart */
+    .chart {
+        padding: 0 60px;
+        padding-top: 120px;
+    }
+
     /* main */
     main {
         padding: 0 60px;
-        padding-top: 60px;
     }
     #content {
         width: 50%;
@@ -320,10 +348,12 @@ footer a {
         width: 60%;
     }
 
-    /* main */
-    main {
-        padding-top: 100px;
+    /* chart */
+    .chart {
+        padding-top: 140px;
     }
+
+    /* main */
     #content, aside {
         width: 100%;
         padding: 0;
@@ -336,10 +366,18 @@ footer a {
         width: 100%;
     }
 
+    /* chart */
+    .chart {
+        padding: 0 25px;
+        padding-top: 140px;
+    }
+    .chart__card {
+        padding: 20px 18px;
+    }
+
     /* main */
     main {
         padding: 0 25px;
-        padding-top: 100px;
     }
     #content h3 {
         font-size: 1.6em;
