@@ -66,6 +66,7 @@ nav {
 .nav__menu a:hover {
     margin: -.2rem -.5rem;
     padding: .2rem .5rem;
+    border-radius: .3rem;
     background-color: #8B2B80;
 }
 
